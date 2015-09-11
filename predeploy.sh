@@ -15,5 +15,5 @@ if [ $? -ne 0 ]; then
 fi
 
 # Switching vagrant main IP into manifests
-$SED -i -e "s@VAGRANT_MAIN_VM@$VAGRANT_MAIN_VM@g" /usr/share/puppet/modules/openiosds/profiles/vagrant-ext-swift/manifests/*.pp
+$SED -i -e "s@VAGRANT_MAIN_VM@$VAGRANT_MAIN_VM@g" /usr/share/puppet/modules/openiosds/profiles/vagrant-ext-cyrus/manifests/*.pp
 
